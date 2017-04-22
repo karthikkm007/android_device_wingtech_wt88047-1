@@ -1,6 +1,9 @@
 # IMS
 PRODUCT_PACKAGES += \
-    libshims_ims
+   libshim_parcel \
+   libshim_boringssl \
+   libshims_camera \
+   libshims_ims
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.jbims=1 \
